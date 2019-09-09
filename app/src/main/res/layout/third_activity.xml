@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="386dp"
+            android:layout_height="201dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/thstxt" android:layout_weight="1" android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="129dp" android:layout_marginLeft="15dp"/>
+    <TextView
+            android:layout_width="336dp"
+            android:layout_height="66dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+            android:id="@+id/textView" android:layout_marginTop="50dp" android:layout_marginLeft="18dp"
+            android:hint="Write Something here"
+            android:textStyle="bold"
+            android:textColor="#AD0A0A"
+            android:textSize="25sp"/>
+    <Button
+            android:text="Share"
+            android:layout_width="173dp"
+            android:layout_height="101dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="110dp" android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true" android:id="@+id/btnshare" android:layout_marginBottom="200dp"
+            android:layout_marginLeft="110dp"/>
+</RelativeLayout>
